@@ -9,9 +9,7 @@ BOOL PLAY_CAM_ANIM(Cam cam, char* animName, char* animDictionary, float x, float
 ```
 
 ```
-Atleast one time in a script for the zRot Rockstar uses GET_ENTITY_HEADING to help fill the parameter.  
-p9 is unknown at this time.  
-p10 throughout all the X360 Scripts is always 2.  
+Use GET_ENTITY_ROTATION to see rotation orders.  
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)
@@ -26,7 +24,7 @@ p10 throughout all the X360 Scripts is always 2.
 * **xRot**: 
 * **yRot**: 
 * **zRot**: 
-* **p9**: 
-* **p10**: 
+* **animFlags**: 
+* **rotOrder**: 
 
 ## Return value
